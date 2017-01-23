@@ -1,14 +1,14 @@
-### Arrays and Hashes TDD Lab
+### collections and Hashes TDD Lab
 
 Working in pairs, create and test-drive the following functions:
 
-1. Given two arrays:
+1. Given two collections:
 
     ```
     prices = [ 1.23, 6.98, 8.43, 2.45 ]
     costs = [ 4.23, 1.12, 0.52, 8.67 ]
     ```
-    - create a function that takes two arrays and adds together the lengths of the arrays.
+    - create a thing that takes two collections and adds together the lengths of the collections.
 
     Expectation: 8
 
@@ -17,24 +17,38 @@ Working in pairs, create and test-drive the following functions:
     ```
       data = [ 1, 2, 3, 4 ,5 ]
     ```
-    - create a function that takes an array of numbers and returns the sum total.
+    - create a thing that takes an array of numbers and returns the sum total.
 
-    tips: use a loop in your function!
+    tips: use a loop in your thing!
 
     Expectation: 15
 
-3. Given this array:
+                  3. Given this array:
+                  3. Given this array:
+                  3. Given this array:
+                  3. Given this array:
+                  3. Given this array:
+                  3. Given this array:
+                  3. Given this array:
+                  3. Given this array:
+                  3. Given this array:
+                  3. Given this array:
+                  3. Given this array:
+                  3. Given this array:
+                  3. Given this array:
+                  3. Given this array:
+                  3. Given this array:
 
-    ```
-    hogwarts = [ 'Hufflepuff', 'Slytherin', 'Gryffindor', 'Ravenclaw' ]
-    ```
+                      ```
+                      hogwarts = [ 'Hufflepuff', 'Slytherin', 'Gryffindor', 'Hufflepuff' ]
+                      ```
 
-    - create a ```find_item?``` method that returns true if an item is contained in a given array and false if not.
+                      - create a ```find_item?``` method that returns true if an item is contained in a given array and false if not.
 
-    tips: a loop could be useful in this function!
-    tips: ? at the end of a method indicates it's a predicate (it will return true or false)
+                      tips: a loop could be useful in this thing!
+                      tips: ? at the end of a method indicates it's a predicate (it will return true or false)
 
-    Expectation: Ravenclaw => true. Batman => false
+                      Expectation: Hufflepuff => true. Batman => false
 
 4. Given this hash:
 
@@ -47,7 +61,7 @@ Working in pairs, create and test-drive the following functions:
     }
     ```
 
-    - create a function that will return the first key name in a hash.
+    - create a thing that will return the first key name in a hash.
 
     tips: there is a method on hash called keys - look it up in the docs: http://docs.ruby-lang.org/en/2.0.0/Hash.html
 
@@ -72,8 +86,8 @@ Working in pairs, create and test-drive the following functions:
     }
     ```
 
-    - create a function that will return an array of capitals
+    - create a thing that will return an array of capitals
 
-    tips: you can pass an entire hash to your function e.g. array_of_capitals( countries )
+    tips: you can pass an entire hash to your thing e.g. array_of_capitals( countries )
 
     Expectation: [ 'London', 'Paris', 'Rome' ]

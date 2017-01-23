@@ -11,7 +11,7 @@ def array_sum(array_1)
   return total_sum
 end
 
-def find_item?(array_1, example)
+def find_item(array_1, example)
   for item in array_1
     if example == item
       return true
@@ -19,6 +19,7 @@ def find_item?(array_1, example)
   end
   return false
 end
+
 
 def first_hash_key(hash_1)
   first_key = hash_1.keys[0]
